@@ -1,0 +1,53 @@
+.track_name{
+  font-variant: small-caps;
+}
+.artist{
+  font-weight: bold;
+}
+.album_name{
+  font-style:italic;
+}
+.release, .genre{
+  font-size: 75%;
+}
+.genre{
+  list-style-type: circle;
+}
+.album_cover img{
+  float:right;
+  height:100px;
+  width: auto;
+}
+#favorite{
+  color:green;
+}
+#loaded_container{
+  display: none;
+}
+#unloaded_container{
+  display:block;
+}
+div{
+  width:75%;
+  text-align: center;
+  position: relative;
+}
+ul{
+  border: 1px solid black;
+  height: inherit;
+  padding-left: 0px;
+  margin:0;
+}
+li{
+  display: inline-block;
+  border: 1px solid black;
+  border-color: black;
+  height: inherit;
+  vertical-align: middle;
+}
+span{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-style:italic;
+}
